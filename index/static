@@ -114,6 +114,43 @@
           "Env": null
         }
       ]
+    },
+    {
+      "Name": "test-org69420/com.github.jpochyla.Psst",
+      "Images": [
+        {
+          "Name": "ghcr.io/test-org69420/com.github.jpochyla.psst",
+          "Digest": "sha256:84290fa27cf23294dfd65bcc3c634ff30b7e4b60c5aefb044b7b84569ffbf81f",
+          "RepoTags": [
+            "nightly"
+          ],
+          "Created": "2022-01-03T06:19:11Z",
+          "DockerVersion": "",
+          "Labels": {
+            "org.flatpak.body": "Name: com.github.jpochyla.Psst\nArch: x86_64\nBranch: nightly\nBuilt with: Flatpak 1.11.2\n",
+            "org.flatpak.commit": "b7553ad813980de7bb8ad377352220ab311e6db900fe55819aab092a4d311fa7",
+            "org.flatpak.commit-metadata.ostree.collection-binding": "AABz",
+            "org.flatpak.commit-metadata.ostree.ref-binding": "YXBwL2NvbS5naXRodWIuanBvY2h5bGEuUHNzdC94ODZfNjQvbmlnaHRseQAsAGFz",
+            "org.flatpak.commit-metadata.xa.download-size": "AAAAAABc+60AdA==",
+            "org.flatpak.commit-metadata.xa.installed-size": "AAAAAAD+lgAAdA==",
+            "org.flatpak.commit-metadata.xa.metadata": "W0FwcGxpY2F0aW9uXQpuYW1lPWNvbS5naXRodWIuanBvY2h5bGEuUHNzdApydW50aW1lPW9yZy5nbm9tZS5QbGF0Zm9ybS94ODZfNjQvNDAKc2RrPW9yZy5nbm9tZS5TZGsveDg2XzY0LzQwCmNvbW1hbmQ9cHNzdC1ndWkKCltDb250ZXh0XQpzaGFyZWQ9bmV0d29yaztpcGM7CnNvY2tldHM9eDExO3dheWxhbmQ7cHVsc2VhdWRpbztmYWxsYmFjay14MTE7CmRldmljZXM9ZHJpOwoKW0V4dGVuc2lvbiBjb20uZ2l0aHViLmpwb2NoeWxhLlBzc3QuRGVidWddCmRpcmVjdG9yeT1saWIvZGVidWcKYXV0b2RlbGV0ZT10cnVlCm5vLWF1dG9kb3dubG9hZD10cnVlCgpbQnVpbGRdCmJ1aWx0LWV4dGVuc2lvbnM9Y29tLmdpdGh1Yi5qcG9jaHlsYS5Qc3N0LkRlYnVnOwAAcw==",
+            "org.flatpak.commit-metadata.xa.ref": "YXBwL2NvbS5naXRodWIuanBvY2h5bGEuUHNzdC94ODZfNjQvbmlnaHRseQAAcw==",
+            "org.flatpak.download-size": "6093067",
+            "org.flatpak.installed-size": "16684544",
+            "org.flatpak.metadata": "[Application]\nname=com.github.jpochyla.Psst\nruntime=org.gnome.Platform/x86_64/40\nsdk=org.gnome.Sdk/x86_64/40\ncommand=psst-gui\n\n[Context]\nshared=network;ipc;\nsockets=x11;wayland;pulseaudio;fallback-x11;\ndevices=dri;\n\n[Extension com.github.jpochyla.Psst.Debug]\ndirectory=lib/debug\nautodelete=true\nno-autodownload=true\n\n[Build]\nbuilt-extensions=com.github.jpochyla.Psst.Debug;",
+            "org.flatpak.ref": "app/com.github.jpochyla.Psst/x86_64/nightly",
+            "org.flatpak.subject": "Export com.github.jpochyla.Psst",
+            "org.flatpak.timestamp": "1641190751",
+            "org.freedesktop.appstream.appdata": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<components version=\"0.8\" origin=\"flatpak\">\n  <component type=\"desktop\">\n    <id>com.github.jpochyla.Psst</id>\n    <name>Psst</name>\n    <summary>Fast Spotify client with native GUI, without Electron, built in Rust.</summary>\n    <description><p>Fast Spotify client with native GUI, without Electron, built in Rust. Very early in development, lacking in features, stability, and general user experience. It is being tested only on Mac so far, but aims for full Windows and Linux support. Contributions welcome!</p></description>\n    <categories>\n      <category>Audio</category>\n      <category>AudioVideo</category>\n    </categories>\n    <vetos>\n      <veto>has no icon</veto>\n    </vetos>\n    <project_license>MIT</project_license>\n    <url type=\"homepage\">https://github.com/jpochyla/psst</url>\n    <screenshots>\n      <screenshot type=\"default\">\n        <image type=\"source\">https://raw.githubusercontent.com/jpochyla/psst/master/psst-gui/assets/screenshot.png</image>\n      </screenshot>\n    </screenshots>\n    <content_rating type=\"oars-1.1\"/>\n    <releases>\n      <release timestamp=\"1629676800\" version=\"master\"/>\n    </releases>\n    <provides>\n      <id>psst.desktop</id>\n    </provides>\n    <launchable type=\"desktop-id\">com.github.jpochyla.Psst.desktop</launchable>\n    <bundle type=\"flatpak\" runtime=\"org.gnome.Platform/x86_64/40\" sdk=\"org.gnome.Sdk/x86_64/40\">app/com.github.jpochyla.Psst/x86_64/nightly</bundle>\n  </component>\n</components>"
+          },
+          "Architecture": "amd64",
+          "Os": "linux",
+          "Layers": [
+            "sha256:5b2c93ba4d18ef0defe82e881b3bca97cb4fb0178d61afdd3ec07378a3a9e3b1"
+          ],
+          "Env": null
+        }
+      ]
     }
   ]
 }
